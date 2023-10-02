@@ -156,6 +156,10 @@
 
 /**Width**/
 
+.w-33per{
+    width: 33%;
+}
+
 .w-fit-content{
     width: fit-content;
 }
@@ -174,11 +178,24 @@
     height: 80vh;
 }
 
+.height-100vh{
+    height: 100vh;
+}
+
+.height-200vh{
+    height: 200vh;
+}
+
 /**Padding**/
 
 .padding7{
     padding:7px;
 }
+
+.padding30{
+    padding:30px;
+}
+
 
 .padding50{
     padding:50px;
@@ -211,5 +228,6 @@
 }
 
 .col{
+    display: flex;
     flex-direction: column;
 }
