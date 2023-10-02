@@ -156,8 +156,17 @@
 
 /**Width**/
 
+.w-20per{
+    width: 20%;
+}
+
+
 .w-33per{
     width: 33%;
+}
+
+.w-40per{
+    width: 40%;
 }
 
 .w-fit-content{
@@ -172,6 +181,14 @@
 
 .height-700{
     height: 700px;
+}
+
+.height-40vh{
+    height: 40vh;
+}
+
+.height-45vh{
+    height: 45vh;
 }
 
 .height-80vh{
@@ -194,6 +211,10 @@
 
 .padding7{
     padding:7px;
+}
+
+.padding10{
+    padding:10px;
 }
 
 .padding30{
