@@ -42,6 +42,10 @@
     background-color: #0061ff;
 }
 
+.bg-lightblue2{
+    background-color: #b4d0e7;
+}
+
 .bg-lilac{
     background-color:rgb(205, 150, 221);
 }
@@ -156,12 +160,30 @@
     width: fit-content;
 }
 
+.w-700{
+    min-height: 700px;
+}
+
+/**Height**/
+
+.height-700{
+    height: 700px;
+}
+
+.height-80vh{
+    height: 80vh;
+}
 
 /**Padding**/
 
 .padding7{
     padding:7px;
 }
+
+.padding50{
+    padding:50px;
+}
+
 
 /**Border Radius**/
 
@@ -186,4 +208,8 @@
 
 .align-center{
     align-items: center;
+}
+
+.col{
+    flex-direction: column;
 }
