@@ -1,0 +1,169 @@
+/** UTILITIES **/
+
+/** Background color **/
+
+.bg-orange{
+    background-color: rgba(255,105,0,255);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-lightblack{
+    background-color: rgba(34,34,34,255);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-grey{
+    background-color: rgb(85, 84, 84);
+}
+
+.bg-grey-tran{
+    background-color: rgba(85, 84, 84, 0.548);
+}
+
+
+/** Font color **/
+
+.c-white{
+    color: white;
+}
+
+.c-red{
+    color: red;
+}
+
+.c-black{
+    color: black;
+}
+
+.c-lightgreen{
+    color: rgb(32, 165, 32);
+}
+
+
+/** Margin **/
+
+.margin-auto{
+    margin: auto;
+}
+
+.margin-r4{
+    margin-right: 4px;
+}
+
+.margin-r6{
+    margin-right: 6px;
+}
+
+.margin-r9{
+    margin-right: 9px;
+}
+
+
+.margin-t3{
+    margin-top: 3px;
+}
+
+.margin-t8{
+    margin-top: 8px;
+}
+
+.margin-t10{
+    margin-top: 10px;
+}
+
+.margin-t30{
+    margin-top: 30px;
+}
+
+.margin-b30{
+    margin-bottom: 30px;
+}
+
+/** Font size **/
+
+.f-size10{
+    font-size: 10px;
+}
+
+.f-size12{
+    font-size: 12px;
+}
+
+.f-size15{
+    font-size: 15px;
+}
+
+.f-size14{
+    font-size: 14px;
+}
+
+.f-size13{
+    font-size: 13px;
+}
+
+.f-size20{
+    font-size: 20px;
+}
+
+.f-size30{
+    font-size: 30px;
+}    
+
+.f-size40{
+    font-size: 40px;
+}
+
+/**Font Weight**/
+
+.f-weight700{
+    font-weight: 700;
+}
+
+
+/**Width**/
+
+.w-fit-content{
+    width: fit-content;
+}
+
+
+/**Padding**/
+
+.padding7{
+    padding:7px;
+}
+
+/**Border Radius**/
+
+.bor-radius20{
+    border-radius: 20px;
+}
+
+.bor-radius10{
+    border-radius: 10px;
+}
+
+.bor-radius5{
+    border-radius: 5px;
+}
+
+
+/**Row**/
+
+.row{
+    display: flex;
+}
