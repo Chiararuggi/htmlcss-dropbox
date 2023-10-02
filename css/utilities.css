@@ -34,6 +34,19 @@
     background-color: rgba(85, 84, 84, 0.548);
 }
 
+.bg-blue{
+    background-color:blue;
+}
+
+.bg-lightblue{
+    background-color: #0061ff;
+}
+
+.bg-lilac{
+    background-color:rgb(205, 150, 221);
+}
+
+
 
 /** Font color **/
 
@@ -72,6 +85,9 @@
     margin-right: 9px;
 }
 
+.margin-l6{
+    margin-left: 6px;
+}
 
 .margin-t3{
     margin-top: 3px;
@@ -162,8 +178,12 @@
 }
 
 
-/**Row**/
+/**Row and Column**/
 
 .row{
     display: flex;
+}
+
+.align-center{
+    align-items: center;
 }
