@@ -134,6 +134,10 @@
     margin-left: 30px;
 }
 
+.margin-l50{
+    margin-left: 50px;
+}
+
 .margin-t3{
     margin-top: 3px;
 }
@@ -224,6 +228,10 @@
 
 .margin-b30{
     margin-bottom: 30px;
+}
+
+.margin-b40{
+    margin-bottom: 40px;
 }
 
 /** Font size **/
@@ -406,6 +414,10 @@
     height: 150vh;
 }
 
+.height-180vh{
+    height: 180vh;
+}
+
 .height-200vh{
     height: 200vh;
 }
@@ -440,6 +452,14 @@
 
 .padding60{
     padding:60px;
+}
+
+.padding-t50{
+    padding-top:50px;
+}
+
+.padding-t60{
+    padding-top:50px;
 }
 
 .padding-t70{
