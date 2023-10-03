@@ -22,7 +22,7 @@
   </head>
   <body>
     <header>
-      <div class="header-row row f-size14">
+      <div class="header-row row f-size14 bg-white">
         <div class="first-header-row row w-fit-content align-center">
           <div class="col margin-l6">
             <img class="margin-r20" src="./img/logo-small.png" alt="logo" />
@@ -35,7 +35,9 @@
           <div class="col margin-r20 but">Supporto</div>
           <div class="col margin-r20 but">Contatta l'ufficio vendite</div>
           <div class="col margin-r6 but">Accedi</div>
-          <div class="col margin-r6 bg-lightblue padding5-8 c-white">Inizia</div>
+          <div class="col margin-r6 bg-lightblue padding5-8 c-white">
+            Inizia
+          </div>
         </div>
       </div>
     </header>
@@ -80,7 +82,7 @@
             </h2>
           </div>
           <!--choose buttons-->
-          <div class="row">
+          <div class="row margin-t30 margin-b30">
             <input
               type="radio"
               id="fatt-m"
@@ -88,7 +90,7 @@
               value="Fatturazione mensile"
             />
              
-            <label for="fatt-m">Fatturazione mensile</label>
+            <label for="fatt-m" class="margin-r30">Fatturazione mensile</label>
             <input
               type="radio"
               id="fatt-a"
@@ -99,44 +101,137 @@
             <label for="fatt-m">Fatturazione annuale</label>
           </div>
           <!--choose plan-->
-          <div class="row">
-            <div class="col w-33per">
-              <div>
-                Singolo
-                <hr />
+          <div class="row justify-sb">
+            <!--Professional plan-->
+            <div class="col w-30per">
+              <div class="border padding10 t-align-center">
+                <span>
+                  <i class="fas fa-user"></i>
+                  Singolo
+                </span>
               </div>
-              <div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet,
-                id blanditiis! Quod porro modi reprehenderit omnis quisquam.
-                Dolorum, quos similique accusamus voluptas nulla vitae beatae,
-                sequi nisi obcaecati voluptate eos.
+              <!--first panel -->
+              <div class="plan-container border bo-top-none col">
+                <span
+                  ><h2 class="f-size25 f-weight500 margin-t30 margin-l25">
+                    Professional
+                  </h2></span
+                >
+                <span
+                  ><h2 class="f-size15 margin-l25 margin-t15">$ 12.00</h2>
+                </span>
+                <span class="c-lightgrey f-size15 margin-l25 margin-t5"
+                  >/mese</span
+                >
+                <span class="f-size15 margin-t30 margin-l25"
+                  ><i class="fas fa-user"></i>1 Utente</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-folder"></i> 5 TB di spazio di archiviazione
+                  sicuro</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-share-nodes"></i> Funzioni di produttività
+                  premium e condivisione file semplice e sicura</span
+                >
+                <a
+                  href="#"
+                  class="prova-gratis padding10 bg-lightblue w-84per c-white margin-auto margin-t30"
+                  >Prova Gratis per 30 giorni</a
+                >
+                <span class="margin-l25 margin-t25"
+                  >oppure <a href="#">acquista ora</a></span
+                >
               </div>
+              <!--second panel -->
               <div>ciao</div>
             </div>
-            <div class="col w-33per">
-              <div>
-                Team
-                <hr />
+            <!--Advanced plan-->
+            <div class="col w-30per">
+              <div class="border padding10 t-align-center">
+                <span
+                  ><i class="fas fa-users"></i>
+                  Team
+                </span>
               </div>
-              <div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet,
-                id blanditiis! Quod porro modi reprehenderit omnis quisquam.
-                Dolorum, quos similique accusamus voluptas nulla vitae beatae,
-                sequi nisi obcaecati voluptate eos.
+              <!--first panel -->
+              <div class="plan-container border bo-top-none col">
+                <span
+                  ><h2 class="f-size25 f-weight500 margin-t30 margin-l25">
+                    Advanced
+                  </h2></span
+                >
+                <span
+                  ><h2 class="f-size15 margin-l25 margin-t15">$ 16.00</h2>
+                </span>
+                <span class="c-lightgrey f-size15 margin-l25 margin-t5"
+                  >/utente/mese</span
+                >
+                <span class="f-size15 margin-t30 margin-l25 margin-t15"
+                  ><i class="fas fa-users"></i>3 o più utenti</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-folder"></i> Tutto lo spazio di cui ha
+                  bisogno il tuo team</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-share-nodes"></i> Sofisticate funzioni di
+                  controllo e per tenere al sicuro tutti i file del tuo
+                  team</span
+                >
+                <a
+                  href="#"
+                  class="prova-gratis padding10 bg-lightblue w-84per c-white margin-auto margin-t30"
+                  >Prova Gratis per 30 giorni</a
+                >
+                <span class="margin-l25 margin-t25"
+                  >oppure <a href="#">acquista ora</a></span
+                >
               </div>
+              <!--second panel -->
               <div>ciao</div>
             </div>
-            <div class="col w-33per">
-              <div>
-                Azienda
-                <hr />
+            <!--Enterprise plan-->
+            <div class="col w-30per">
+              <div class="border padding10 t-align-center">
+                <span>
+                  <i class="fas fa-building"></i>
+                  Azienda
+                </span>
               </div>
-              <div>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet,
-                id blanditiis! Quod porro modi reprehenderit omnis quisquam.
-                Dolorum, quos similique accusamus voluptas nulla vitae beatae,
-                sequi nisi obcaecati voluptate eos.
+              <!--first panel -->
+              <div class="plan-container border bo-top-none col">
+                <span
+                  ><h2 class="f-size25 f-weight500 margin-t30 margin-l25">
+                    Enterprise
+                  </h2></span
+                >
+                <span
+                  ><h2 class="f-size15 margin-l25 margin-t15">Contattaci</h2>
+                </span>
+                <span class="c-lightgrey f-size15 margin-l25 margin-t5">-</span>
+                <span class="f-size15 margin-t30 margin-l25"
+                  ><i class="fas fa-user"></i>10 o più utenti</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-folder"></i> Soluzioni personalizzabili per
+                  la tua azienda</span
+                >
+                <span class="f-size15 margin-l25 margin-t15"
+                  ><i class="fas fa-share-nodes"></i> Assistenza personalizzata
+                  per aiutare gli amministratori in una gestione su larga
+                  scala</span
+                >
+                <a
+                  href="#"
+                  class="prova-gratis padding10 bg-lightblue w-84per c-white margin-auto margin-t30"
+                  >Prova Gratis per 30 giorni</a
+                >
+                <span class="margin-l25 margin-t20"
+                  >oppure <a href="#">acquista ora</a></span
+                >
               </div>
+              <!--second panel -->
               <div>ciao</div>
             </div>
           </div>
