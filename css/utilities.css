@@ -89,8 +89,30 @@
     margin-right: 9px;
 }
 
+.margin-r10{
+    margin-right: 10px;
+}
+
+.margin-r15{
+    margin-right: 15px;
+}
+
+.margin-r20{
+    margin-right: 20px;
+}
+
+
+
 .margin-l6{
     margin-left: 6px;
+}
+
+.margin-l10{
+    margin-left: 10px;
+}
+
+.margin-l20{
+    margin-left: 20px;
 }
 
 .margin-t3{
@@ -130,7 +152,19 @@
 }
 
 .margin-t120{
-    margin-top: 100px;
+    margin-top: 120px;
+}
+
+.margin-t150{
+    margin-top: 150px;
+}
+
+.margin-t170{
+    margin-top: 170px;
+}
+
+.margin-t180{
+    margin-top: 180px;
 }
 
 .margin-b30{
@@ -274,6 +308,10 @@
 
 /**Padding**/
 
+.padding5-8{
+    padding:5px 8px;
+}
+
 .padding7{
     padding:7px;
 }
@@ -295,6 +333,11 @@
 .padding60{
     padding:60px;
 }
+
+.padding200{
+    padding:200px;
+}
+
 
 
 /**Border Radius**/
