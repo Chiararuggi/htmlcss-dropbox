@@ -6,6 +6,10 @@
     background-color: rgba(255,105,0,255);
 }
 
+.bg-yellow{
+    background-color: #ffd830;
+}
+
 .bg-black{
     background-color: black;
 }
@@ -18,12 +22,33 @@
     background-color: red;
 }
 
+.bg-redlogo{
+    background-color: #ff1b1c;
+}
+
+.bg-redlogo2{
+    background-color: #d50120;
+}
+
+.bg-bordeaux{
+    background-color: #60092b;
+}
+
 .bg-green{
     background-color: green;
 }
 
+.bg-lightgreen{
+    background-color: #a2d39b;
+}
+
 .bg-white{
     background-color: white;
+}
+
+
+.bg-lightgrey{
+    background-color: #f5f5f5;
 }
 
 .bg-grey{
@@ -38,9 +63,24 @@
     background-color:blue;
 }
 
+.bg-bluelogo{
+    background-color:#0d2481;
+}
+
 .bg-lightblue{
     background-color: #0061ff;
 }
+
+
+.bg-lightbluelogo{
+    background-color: #0093ce;
+}
+
+.bg-lightbluelogo2{
+    background-color: #b4d0e7;
+}
+
+
 
 .bg-lightblue2{
     background-color: #b4d0e7;
@@ -302,6 +342,14 @@
 
 /**Width**/
 
+.w-16vh{
+    width: 16vh;
+}
+
+.w-30vh{
+    width: 30vh;
+}
+
 .w-20per{
     width: 20%;
 }
@@ -442,6 +490,10 @@
 
 .padding30{
     padding:30px;
+}
+
+.padding40{
+    padding:40px;
 }
 
 
