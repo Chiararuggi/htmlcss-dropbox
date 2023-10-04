@@ -414,6 +414,14 @@
     height: 700px;
 }
 
+.height-30per{
+    height: 30%;
+}
+
+.height-70per{
+    height: 70%;
+}
+
 .height-100per{
     height: 100%;
 }
@@ -489,10 +497,42 @@
     padding:10px 40px;
 }
 
+.padding8-8-8-0{
+    padding:8px 8px 8px 0;
+}
+
+.padding38-10-10-0{
+    padding:38px 10px 10px 0;
+}
+
+.padding40-10-10-0{
+    padding:40px 10px 10px 0;
+}
+
+.padding40-10-10-0{
+    padding:40px 10px 10px 0;
+}
+
+.padding42-10-10-0{
+    padding:42px 10px 10px 0;
+}
+
+.padding44-10-10-0{
+    padding:44px 10px 10px 0;
+}
+
+.padding10-10-10-0{
+    padding:10px 10px 10px 0;
+}
+
+
 .padding40-40-40-0{
     padding:40px 40px 40px 0;
 }
 
+.padding30-30-20-0{
+    padding:30px 30px 20px 0;
+}
 
 .padding7{
     padding:7px;
