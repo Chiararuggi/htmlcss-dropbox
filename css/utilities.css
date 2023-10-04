@@ -395,6 +395,11 @@
 .w-84per{
     width: 84%;
 }
+
+.w-100per{
+    width: 100%;
+}
+
 .w-fit-content{
     width: fit-content;
 }
@@ -483,6 +488,11 @@
 .padding10-20{
     padding:10px 40px;
 }
+
+.padding40-40-40-0{
+    padding:40px 40px 40px 0;
+}
+
 
 .padding7{
     padding:7px;
