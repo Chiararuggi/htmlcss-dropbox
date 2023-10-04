@@ -21,9 +21,6 @@
 
 /** Main: **/
 
-
-/** first panel **/
-
 .panel-container{
     margin: auto;
     width: 60%;
@@ -43,7 +40,13 @@
 }
 
 .plan-container{
-    height:600px;
+    height:550px;
+}
+
+.plan-hr{
+    border: 1px solid lightgrey;
+    width: 20%;
+    margin-left: 30px; 
 }
 
 .second-plan-container{
