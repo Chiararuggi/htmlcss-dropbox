@@ -331,6 +331,10 @@
     font-size: 63px;
 }
 
+.f-size70{
+    font-size: 70px;
+}
+
 /**Font Weight**/
 
 .f-weight700{
@@ -675,6 +679,17 @@
     padding-bottom:7px;
 }
 
+.padding-b30{
+    padding-bottom:30px;
+}
+
+.padding-b50{
+    padding-bottom:50px;
+}
+
+.padding-b80{
+    padding-bottom:80px;
+}
 
 .padding200{
     padding:200px;
