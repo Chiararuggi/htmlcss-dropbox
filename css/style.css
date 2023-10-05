@@ -82,6 +82,11 @@
     filter: invert(100%);
 }
 
+.middle-col{
+    overflow-y: auto;
+    height: 60vh;
+}
+
 .cube{
     height: 30vh;
     display: flex;
