@@ -98,3 +98,15 @@
     border: 1px solid rgb(133, 132, 132);
     width: 10%;
 }
+
+.questions:hover{
+    height: 20vh;
+}
+
+.disappear-text{
+    display: none;
+}
+
+.questions:hover .disappear-text{
+    display: block;
+}
